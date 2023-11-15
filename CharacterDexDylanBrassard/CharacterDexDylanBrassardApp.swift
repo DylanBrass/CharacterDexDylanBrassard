@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 @main
 struct CharacterDexDylanBrassardApp: App {
     var body: some Scene {

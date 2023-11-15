@@ -12,7 +12,13 @@ struct Superhero: Codable, Identifiable{
     let id: Int
     let name: String
     let slug: String
+    let images: ImageModel
 }
 
+
+struct ImageModel: Codable{
+    let sm: String
+    let lg: String
+}
 
 
